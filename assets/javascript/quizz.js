@@ -63,7 +63,7 @@ window.onload = function () {
 
         quizContainer.innerHTML = output.join('');
     }
-
+    // if button ever worked, was going to replace it as a timer, or that was the plan//
     submitButton.onClick = function () {
 
         userAnswer = answerContainers[i].querySelector('input[name=question' + i + ']:checked') || {}.value;
